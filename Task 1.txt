@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<title> Learning Java Programming Language </title>
+<h2>
+
+BACKGROUND
+
+</h2>
+
+<p>I started learning programming back in 2014 in SRM University, India.</p>
+I was exposed to the following programming languages: 
+Java, ASP.Net framework, C#, Linux and Unix
+
+<h2>Features</h2>
+
+Some of the general features of these programming languages includes:
+<ul>
+<li>They are all High Level Languages</li>
+<li>Similar Libraries</li>
+<li>Consists of tags and elements</li>
+</ul>
+
+<h2> Comparison</h2>
+
+<style>
+table, th, td {
+  border:1px solid black;style="width:100%"
+}
+</style>
+
+<table>
+  <tr>
+    <th>Pros</th>
+    <th>Cons</th>
+    </tr>
+    
+    <tr>
+       <td>Consists of html tags</td>
+    
+       <td>Every open tag must have a corresponding closed tag else that line of code is seen as a statement</td>
+    
+    </tr>
+    
+    <tr>
+        <td>Consists of html tags that are easy to memorise</td>
+    
+        <td>Color codes are not easily memorised except used frequently</td>
+    
+    </tr>
+    
+    <tr>
+        <td>Consists of html tags</td>
+    
+        <td>Every open tag must have a closed tag</td>
+    
+    </tr>
+</table>
+
+<h2>
+Include Diagram Section
+</h2>
+
+ 		<div>
+ <img src="1G7A2947.jpg" alt="Demo-Session" width="500" height="600">
+ 		</div>
+        
+<h2>
+Include Sample Code Section
+</h2>
+<p>Code Samples:</p>
+<h2><p></p>
+Conclusion
+</h2>
+<p> Programming is quite an interesting task. However, it is best to be a master at one than having just but a little knowledge of all. Some programming languages have relational or almost similar library functions, so it is best to know and understand these libraries as it applies to a particular programming language</p>
+<h2>Links</h2>
+
+<ol>
+  <li>Coffee Shop Company   <a href="https://coffeeshopcompany.ru/">Coffee</a>
+  
+  <li>Tea     <a href="https://gorkovchay.ru/">Tea</a>
+  
+  <li>Milk    <a href="https://milkshop.ca/">Milk</a>
+  
+</ol>
+
+<h2>
+<p></p>
+Feedback
+</h2>
+
+<form action="/action_page.php">
+  <label for="fname"><b>First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  
+  <p> Message:<p/>
+  <textarea rows="5" cols="40"></textarea>
+  
+  </label>
+  <br>
+  <br>
+  
+ <input type="submit" value="Submit">
+
+</form>
+</body>
+<html/>
+
+
+
+
+
