@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<title >Learning Java Programming Language</title>
+<h2><p style="color: #9955BB;"> BACKGROUND </p>
+</h2>
+
+<p>I started learning programming back in 2014 in SRM University, India.</p>
+I was exposed to the following programming languages: 
+Java, ASP.Net framework, C#, Linux and Unix
+
+<h2><p style="color: #9955BB;"> Features </p></h2>
+
+Some of the general features of these programming languages includes:
+<ul>
+<li>They are all High Level Languages</li>
+<li>Similar Libraries</li>
+<li>Consists of tags and elements</li>
+</ul>
+
+<h2><p style="color: #9955BB;"> Comparison </p> </h2>
+
+
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #007ba7;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<table>
+  <tr>
+    <th>Pros</th>
+    <th>Example Source Code</th>
+    <th>Extra Comments</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>This is a code sample</td>
+    <td>Image</td>
+  </tr>
+  <tr>
+    <td>Cons</td>
+    <th>Example Source Code</th>
+    <th>Extra Comments</th>
+    <tr>
+    <td>  </td>
+    <td>This is a code sample</td>
+    <td> Image </td>
+   
+  </tr>
+  </table>
+
+
+<h2><p style="color: #9955BB;"> Conclusion </p>
+
+</h2>
+<p> Programming is quite an interesting task. However, it is best to be a master at one than having just but a little knowledge of all. Some programming languages have relational or almost similar library functions, so it is best to know and understand these libraries as it applies to a particular programming language</p>
+
+<h2><p style="color: #9955BB;"> Links </p></h2>
+
+<ol>
+  <li> <a href="https://coffeeshopcompany.ru/">Coffee
+		</a>
+  
+  <li> <a href="https://gorkovchay.ru/">Tea
+		</a>
+  
+  <li> <a href="https://milkshop.ca/">Milk
+		</a>
+  
+</ol>
+
+<h2>
+<p style="color: #9955BB;"> Feedback </p>
+
+</h2>
+
+<form action="/action_page.php">
+  <label for="fname"><b>First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  
+  <p> Message:<p/>
+  <textarea rows="5" cols="40"></textarea>
+  
+  </label>
+  <br>
+  <br>
+  
+ <input type="submit" value="Submit">
+</form>
+
+
+
+<h2>
+<p style="color: #9955BB;"> Comments </p>
+
+</h2>
+
+
+<table>
+<style>
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+  
+  <tr>
+    <td>Anthony Essiet</td>
+    <td>ekeminiessiet@gmail.com</td>
+    <td>I'll give the design a 3-star rating</td>
+  </tr>
+  <tr>
+    <td>Denis Tocan</td>
+    <td>dtdenistocain@gmail.com</td>
+    <td>Dunno what to say</td>
+  </tr>
+  <tr>
+    <td>Maluvengue</td>
+    <td>viegamaluvengue@gmail.com</td>
+    <td>Still thinking...</td>
+  </tr>
+</body>
+<html/>
+
+
+
