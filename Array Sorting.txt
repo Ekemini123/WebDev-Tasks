@@ -27,3 +27,5 @@ typename List<T>::iterator insert(value_type info)
     return iterator(temp);
   }
 } 
+
+//It is better to define the methods outside of the class declaration, it makes it is easier to read the interface.
