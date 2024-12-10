@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 
-//USING THE INSERTION SORT ALGORITHM
+//INSERTING INTO THE LIST
 
 template <class T>
 Node<T>::Node(value_type info): m_value(info), m_next(NULL) {}
