@@ -1,46 +1,31 @@
 #include <iostream>
 #include <string>
+#include <iostream>
+#include <string>
+#include <algorithm>
 using namespace std;
 
-void insertElement(int arr[], int& n, int element, int position) {
-    for (int i = n; i >= position; i--) {
-        arr[i] = arr[i - 1];
-    }
-    
-    arr[position] = element;
-    
-    n++;
-}
+//USING THE INSERTION SORT ALGORITHM
 
-int main() {
-    int arr[100]; 
-    int n, element, position;
+template <class T>
+Node<T>::Node(value_type info): m_value(info), m_next(NULL) {}
 
-    std::cout << " Enter the number of elements in the array: ";
-    std::cin >> n;
+template <class T>
+typename List<T>::iterator insert(value_type info)
+{
+  if (m_head == NULL)
+  {
+    m_head = new node_type(info);
+    m_tail = m_head;
+    return iterator(m_tail);
+  }
+  else
+  {
+    m_tail.setNext(new node_type(info));
+    node_pointer temp = m_tail;
+    m_tail = temp.getNext();
+    return iterator(temp);
+  }
+} 
 
-    std::cout << " Enter the array elements:";
-    for (int i = 0; i < n; i++) {
-        std::cin >> arr[i];
-    }
-
-    std::cout << " Enter the element to insert:";
-    std::cin >> element;
-
-    std::cout << " Enter the insertion position (0-" << n << "): ";
-    std::cin >> position;
-
-    if (position >= 0 && position <= n) {
-        insertElement(arr, n, element, position);
-
-        std::cout << " Array after inserting element:";
-        for (int i = 0; i < n; i++) {
-            std::cout << arr[i] << " ";
-        }
-        std::cout << std::endl;
-    } else {
-        std::cout <<  "Incorrect position!"<< std::endl;
-    }
-
-    return 0;
-}
+//It is better to define the methods outside of the class declaration, it makes it is easier to read the interface.
