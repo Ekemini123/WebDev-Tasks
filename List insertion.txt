@@ -29,3 +29,45 @@ typename List<T>::iterator insert(value_type info)
 } 
 
 //It is better to define the methods outside of the class declaration, it makes it is easier to read the interface.
+
+
+
+
+template <class T>
+class Node
+{
+public:
+  // bunch of different data types
+  typedef T value_type;
+  typedef T& reference_type;
+  typedef T const& const_reference_type;
+  typedef T* pointer_type;
+  typedef T const* const_pointer_type;
+
+  // From now on, T should never appear
+private:
+  value_type m_value;
+  Node* m_next;
+};
+
+
+template <class T>
+class List
+{
+  // private, no need to expose implementation
+  typedef Node<T> node_type;
+
+  // From now on, T should never appear
+  typedef node_type* node_pointer;
+
+public:
+  typedef typename node_type::value_type value_type;
+  typedef typename node_type::reference_type reference_type;
+  typedef typename node_type::const_reference_type const_reference_type;
+  // ...
+
+  void add(value_type info);
+
+private:
+  node_pointer m_head, m_tail;
+};
