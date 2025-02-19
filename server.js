@@ -49,6 +49,10 @@ const questions = [
     "options": []
   }
 ];
+
+const cors = require('cors');
+app.use(cors());
+
 app.get('/surveys', (req, res) => {
   res.json(surveys);
 });
@@ -65,7 +69,7 @@ app.get('/questions/:id', (req, res) => {
   question ? res.json(question) : res.status(404).send("Question not found");
 });
 app.get('/', (req, res) => {
-  res.send('Welcomo to the Backend');
+  res.send('Welcome to the Backend');
 });
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
